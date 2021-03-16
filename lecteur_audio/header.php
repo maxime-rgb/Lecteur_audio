@@ -1,9 +1,9 @@
+<div class="bloc-header">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-  <a class="navbar-brand" href="#">
+<a class="navbar-brand" href="./index_co.php">
       <img src="image/simplify.jpeg" alt="logo">
   </a>
-
 
 
 <div class="container_header">
@@ -11,7 +11,7 @@
   <h2>Bonjour<?php echo " ".$_SESSION['user_name']." "?></h2>
 
   <div class="container_icons">
-    <div class="settings"><a href="#"><i class="fa fa-cog"></i></a></li></div>
+    <div class="settings"><a href="./upload_img.php"><i class="fa fa-cog"></i></a></li></div>
     <div class="logout"><a href="login/process/logout.php"><i class="fa fa-sign-out"></i></a>
     </div>
   </div>
@@ -29,8 +29,8 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-    
-  </div>
+</div>    
+  
 </nav>
-
+</div>
 

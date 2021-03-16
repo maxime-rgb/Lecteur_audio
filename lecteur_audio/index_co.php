@@ -26,8 +26,8 @@
         }
 
     
-            include("header.php");
-            ?>
+        include("header.php");
+?>
 
 
 <div class="container">
@@ -41,7 +41,7 @@
   <div class="row">
     <div class="case col-sm-12 col-md-4 col-lg-3"><a href="#">CLASSIC</a></div>
     <div class="caseclear col-sm-12 col-md-1 col-lg-1"></div>
-    <div class="case_favorite col-sm-12 col-md-4 col-lg-3"><a href="#">Favoris</a></div>
+    <div class="case_favorite col-sm-12 col-md-4 col-lg-3"><a href="./lecteuraudio.php">Favoris</a></div>
     <div class="caseclear col-sm-12 col-md-1 col-lg-1"></div>
     <div class="case col-sm-12 col-md-6 col-lg-3"><a href="#">JAZZ</a></div>
   </div>
@@ -54,13 +54,8 @@
   </div>
 </div>
 
-
     <?php include("footer.php");
-    ?>
-
-
-
-    
+    ?>  
 
 </body>
 </html>
